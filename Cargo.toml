@@ -19,7 +19,7 @@ is-it-maintained-open-issues = { repository = "qnighy/libwebp-rs" }
 
 [dependencies]
 #libwebp-sys2 = "0.1.0"
-libwebp-sys2 = {git: "https://github.com/Randall-Coding/libwebp-sys2-rs-lossless_sse41-fix"}
+libwebp-sys2 = {git= "https://github.com/Randall-Coding/libwebp-sys2-rs-lossless_sse41-fix", branch="master"}
 
 [dev-dependencies]
 rand = "0.8.0"
